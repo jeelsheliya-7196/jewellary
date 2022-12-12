@@ -1,0 +1,69 @@
+$primary:'Rubik';
+$secondary: 'Playfair Display';
+$primary-color: #242424;
+$primary-rgb: 36, 36, 36;
+$secondary-color: #c09578;
+$secondary-rbg: 192, 149, 120;
+$font-color: #5a5a5a;
+$font-rgb: 90, 90, 90;
+$grey-color:#a4a4a4;
+$grey-rgb: 164, 164, 164;
+$black-color: #000;
+$black-rgb: 0, 0, 0;
+$white-color: #fff;
+$white-rgb: 255, 255, 255;
+$boader-color:#ebebeb;
+$boader-rgb:235, 235, 235;
+$gutter-padding: 15px;
+$fs: 16px;
+$fw: 600;
+$lh: 1.5;
+
+
+:root{
+    --primary-font: #{$primary};
+    --secondary-font: #{$secondary};
+    --primary-color: #{$primary-color};
+    --primary-rgb: #{$primary-rgb};
+    --secondary-color: #{$secondary-color};
+    --secondary-rgb: #{$secondary-rbg};
+    --font-color: #{$font-color};
+    --font-rgb: #{$font-rgb};
+    --grey-color: #{$grey-color};
+    --grey-rgb: #{$grey-rgb};
+    --black-color:#{$black-color};
+    --black-rgb:#{$black-rgb};
+    --white-color: #{$white-color};
+    --white-rgb: #{$white-rgb};
+    --boader-color: #{$boader-color};
+    --boader-rgb: #{$boader-rgb};
+    --gutter-width:#{$gutter-padding};
+    --fs:#{$fs};
+    --fw: #{$fw};
+    --lh: #{$lh};
+}
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html , body{
+    scroll-behavior: smooth;
+}
+ol , ul{
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+    display: block;
+}
+span{
+    display: inline-block;
+}
