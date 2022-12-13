@@ -200,10 +200,10 @@
     background-size: cover;
     padding: 90px;
     text-align: center;
-    transition: all 1s;
     border-bottom: 1px solid var(--boader-color);
 
     .sale{
+    transition: all ease 1s;
         span{
             font-size: 16px;
             font-family: var(--primary-font);
@@ -278,7 +278,6 @@
 }
 .news{
     border-bottom: 1px solid var(--boader-color);
-
     h3{
         font-family: var(--secondary-font);
         font-size: 24px;
